@@ -1,0 +1,61 @@
+/* Profile Card Styling */
+.profile {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Profile Picture */
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Ensures the image fits the circular area */
+    margin-bottom: 10px; /* Add spacing below the image */
+}
+
+/* Name and Location */
+.profile h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px; /* Adjust spacing */
+    font-weight: bold;
+}
+
+.profile .username {
+    color: #888;
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.profile .location {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: #000000; /* Light background for contrast */
+    border-radius: 8px;
+    padding: 10px 0;
+}
+
+.stats div {
+    text-align: center;
+}
+
+.stats span:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.stats span:last-child {
+    font-size: 0.9rem;
+    color: #555;
+}
